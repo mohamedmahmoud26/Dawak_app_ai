@@ -9,7 +9,7 @@ import easyocr
 from modules.text_extraction import extract_text_with_yolo, clean_extracted_texts
 
 # تحميل موديل الـ Object Detection
-det_model = YOLO("/mnt/c/Users/Mohamed Mahmoud/Downloads/drug_recog_system/drug_recog_system/models/best.pt")
+det_model = YOLO("models/best.pt")
 
 # تحميل OCR reader (إنجليزي + عربي)
 ocr_reader = easyocr.Reader(["en", "ar"])
