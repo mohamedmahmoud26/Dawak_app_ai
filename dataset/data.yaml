@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['drug-name']
+
+roboflow:
+  workspace: test-z3p84
+  project: druga
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-z3p84/druga/dataset/3

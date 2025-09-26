@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+env1/
+venv/
+.env
+
+# IDEs / Editors
+.vscode/
+.idea/
+
+# Docker
+Dockerfile
+docker-compose.yml
+docker-compose-test.yml
+.dockerignore
+
+# Logs / temp
+*.log
+*.tmp
